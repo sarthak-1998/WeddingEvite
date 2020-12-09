@@ -468,7 +468,7 @@ body {
 	padding: 20px;
 	background-color: #eee;
 	border-radius: 20px;
-	font-size: 16px;
+	font-size: 20px;
 }
 
 .venue {
@@ -488,8 +488,8 @@ body {
 }
 
 .container {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+	display: flex;
+	/* grid-template-columns: 1fr 1fr; */
 	border-radius: 10px;
 	overflow: hidden;
 }
