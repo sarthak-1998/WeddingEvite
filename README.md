@@ -1,6 +1,6 @@
 
-<p align="center"><a href="tbd"><img src="./assets/wedding.gif" width="150px" height="150px"/></a></p>
-<h1 align="center"><a href="tbd">Wedding Invitation</a> :ring: <br> <br> SAVE THE DATE: 14th Feb, 2021 <br> <a href="https://sonali.netlify.app/">sonali.netlify.app</a></h1>
+<p align="center"><a href="https://www.sarthakj.me/WeddingEvite/"><img src="./assets/wedding.gif" width="150px" height="150px"/></a></p>
+<h1 align="center"><a href="https://www.sarthakj.me/WeddingEvite/">Wedding Invitation</a> :ring: <br> <br> SAVE THE DATE: 14th Feb, 2021 <br> <a href="tbd">Website</a></h1>
 
 
 
@@ -17,7 +17,7 @@ With the divine grace of the almighty, inviting you and your family to Saharsh's
 
 - Find [venue](https://g.page/Mishttenresort) on Google map
 
-- Visit the [website](tbd) for more details
+- Visit the [website](https://www.sarthakj.me/WeddingEvite/) for more details
 
 
 ```js
@@ -35,7 +35,7 @@ const weddingVenue = new Location('Mishtten Resort, Rajasthan');
 
     // your presence is requested
     (new Wedding()).acceptInvitation(
-        window.open('tbd')
+        window.open('https://www.sarthakj.me/WeddingEvite/')
     );
 })();
 
