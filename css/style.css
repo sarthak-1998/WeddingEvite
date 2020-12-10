@@ -502,6 +502,17 @@ body {
 	align-items: center;
 	text-align: center;
 	color: #fff;
+
+	/* @media screen and (min-width: 560px) {
+		width: 135px;
+		height: 120px;
+	  } */
+	  
+	  @media screen and (max-width: 768px) {
+		width: 90px;
+		height: 80px;
+	
+	  }
 }
 
 .days {
