@@ -507,8 +507,8 @@ body {
 		width: 135px;
 		height: 120px;
 	  } */
-	  
-	  @media screen and (max-width: 768px) {
+
+	  @media screen and (max-width: 560px) {
 		width: 90px;
 		height: 80px;
 	
