@@ -1,6 +1,6 @@
 
 <p align="center"><a href="https://www.sarthakj.me/WeddingEvite/"><img src="./assets/wedding.gif" width="150px" height="150px"/></a></p>
-<h1 align="center"><a href="https://www.sarthakj.me/WeddingEvite/">Wedding Invitation</a> :ring: <br> <br> SAVE THE DATE: 14th Feb, 2021 <br> <a href="tbd">Website</a></h1>
+<h1 align="center"><a href="https://www.sarthakj.me/WeddingEvite/">Wedding Invitation</a> :ring: <br> <br> SAVE THE DATE: 14th Feb, 2021 <br> <a href="https://www.sarthakj.me/WeddingEvite/">Website</a></h1>
 
 
 
