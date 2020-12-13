@@ -465,9 +465,9 @@ body {
 #time {
 	width: auto;
 	height: auto;
-	padding: 20px;
+	padding: 10px;
 	background-color: #eee;
-	border-radius: 20px;
+	border-radius: 25px;
 	font-size: 20px;
 }
 
@@ -507,12 +507,7 @@ body {
 		width: 135px;
 		height: 120px;
 	  } */
-
-	  @media (max-width: 600px) {
-		width: 90px;
-		height: 80px;
-	
-	  }
+	 
 }
 
 .days {
@@ -588,3 +583,27 @@ a {
 	font-size: 12px;
 	letter-spacing: 0pt;
 }
+
+@media only screen and (max-width: 768px) {
+
+	.block{
+	width: 90px;
+	height: 80px;
+	/* display: grid; */
+	font-size: 16px;
+	}
+
+  }
+
+  @media only screen and (max-width: 400px) {
+
+	.block{
+	width: 75px;
+	height: 65px;
+	/* display: grid; */
+	
+	font-size: 12px;
+	}
+
+  }
+
