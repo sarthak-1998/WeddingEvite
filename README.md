@@ -1,6 +1,6 @@
 
 <p align="center"><a href="https://www.sarthakj.me/WeddingEvite/"><img src="./assets/wedding.gif" width="150px" height="150px"/></a></p>
-<h1 align="center"><a href="https://www.sarthakj.me/WeddingEvite/">Wedding Invitation</a> :ring: <br> <br> SAVE THE DATE: 14th Feb, 2021 <br> <a href="https://www.sarthakj.me/WeddingEvite/">Website</a></h1>
+<h1 align="center"><a href="./assets/SI.pdf">Wedding Invitation</a> :ring: <br> <br> SAVE THE DATE: 14th Feb, 2021 <br> <a href="https://saharshisha.netlify.app/">Website</a></h1>
 
 
 
@@ -13,18 +13,18 @@
 
 With the divine grace of the almighty, inviting you and your family to Saharsh's wedding to be held on **14th February at [Mishtten Resort](https://g.page/Mishttenresort),  Jhalawar, Rajasthan from 3:00 PM** onwards.
 
-- [Download](tbd) the Invitation card
+- [Download](./assets/SI.pdf) the Invitation card
 
 - Find [venue](https://g.page/Mishttenresort) on Google map
 
-- Visit the [website](https://www.sarthakj.me/WeddingEvite/) for more details
+- Visit the [website](https://saharshisha.netlify.app) for more details
 
 
 ```js
 
 const newCouple = 'Saharsh & Isha';
 
-// Nov 29, 2020
+// Feb 14, 2021
 const weddingDate = new Date(2021, 02, 14);
 
 // Wedding venue: https://g.page/Mishttenresort
@@ -45,3 +45,8 @@ const weddingVenue = new Location('Mishtten Resort, Rajasthan');
 <br><sup><i>With warm regards,<br>
 **Sarthak Jain**<i></sup><br>
 
+## Credits for the Project 
+
+* Vinit Shahdeo - GitHub - https://github.com/vinitshahdeo  Project - https://github.com/vinitshahdeo/Wedding-Invitation
+
+* 
