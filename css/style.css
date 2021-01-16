@@ -569,7 +569,7 @@ a {
 	font-size: 24px;
 	font-weight: bold;
 	text-align: center;
-	margin-bottom: 24px;
+	margin-bottom: 10px;
 }
 
 .twitter {
@@ -683,7 +683,8 @@ a {
 	transform-origin: center left;
   }
   .tile__img {
-	width: 250px;
+	max-width: 60%;
+	text-align: center;
 	height: auto;
 	object-fit: cover;
   }
