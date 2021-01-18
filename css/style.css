@@ -739,7 +739,7 @@ a {
 
 
   .tile__img {
-	max-width: 85%;
+	max-width: 65%;
 	text-align: center;
 	height: auto;
 	object-fit: cover;
