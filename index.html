@@ -30,11 +30,13 @@
    <body>
       <!-- partial:index.partial.html -->
       <div class="sakura-falling"></div>
-      <img src="https://i.imgur.com/dGOOfnA.png" alt="image-top-right" class="top-right-decoration" class="imgi">
-      <img src="https://i.imgur.com/t6ffnbn.png" alt="image-top-left" class="top-left-decoration"  class="imgi"> 
+      <img src="https://i.imgur.com/dGOOfnA.png" alt="image-top-right" class="top-right-decoration">
+      <img src="https://i.imgur.com/t6ffnbn.png" alt="image-top-left" class="top-left-decoration" > 
       <section id="media"></section>
       <div class="wrap">
+        
          <div class="title">
+          <p><b>।।श्री महावीराय नमः।। </b></p>
             <h1>SAHARSH</h1>
             <h2>❤️AND❤️</h2>
             <h1>ISHA</h1>
@@ -155,7 +157,21 @@
        <br>   
 
        <div class="video-container">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/lXbrJhRNbqM?autoplay=1&mute=1&loop=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <div class="video2" data-video = "lXbrJhRNbqM"
+         data-startseconds = "00"
+         data-endseconds = "23"
+         data-height = "480"
+         data-width = "640"
+         id = "youtube-player">
+           
+
+
+         </div>
+
+
+
+
+      <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/lXbrJhRNbqM?autoplay=1&mute=1&loop=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
       </div>
        
 
@@ -164,17 +180,18 @@
                <section id="section1">
                  <!-- <a href="#section3" class="arrow__btn">‹</a> -->
                  <div class="item">
-                  <img src="./assets/img/asd (1).gif" alt="Describe Image">
+                  <img src="./assets/img/jkl.gif" alt="Describe Image">
                 </div>
                  <div class="item">
                  <img src="./assets/img/Invitation (1).png" alt="Describe Image">
                </div>
+               <div class="item">
+                <img src="./assets/img/cvb.gif" alt="Describe Image">
+              </div>
                  <div class="item">
                  <img src="./assets/img/Invitation (2).png" alt="Describe Image">
                </div>
-                 <div class="item">
-                 <img src="./assets/img/Invitation (3).png" alt="Describe Image">
-               </div>                 
+                            
                  <div class="item">
                  <img src="./assets/img/bvc.gif" alt="Describe Image">
                </div>
@@ -249,6 +266,26 @@
       <script src='https://cdn.jsdelivr.net/gh/timoschaefer/jQuery-Sakura/jquery-sakura.min.js'></script>
       <script  src="./js/script.js"></script>
       <script src="/path/to/flickity.pkgd.min.js"></script>
+
+      <script src="https://www.youtube.com/iframe_api"></script>
+    <script type="text/javascript">
+      function onYouTubeIframeAPIReady() {
+        var ctrlq = document.getElementById("youtube-player");
+        var player = new YT.Player('youtube-player', {
+          height: ctrlq.dataset.height,
+          width: ctrlq.dataset.width,
+          events: {
+            'onReady': function(e) {
+              e.target.cueVideoById({
+                videoId: ctrlq.dataset.video,
+                startSeconds: ctrlq.dataset.startseconds,
+                endSeconds: ctrlq.dataset.endseconds
+              });
+            }
+          }
+        });
+      }
+    </script>
       
    
       </body>
