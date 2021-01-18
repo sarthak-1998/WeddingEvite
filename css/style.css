@@ -725,6 +725,9 @@ a {
 	a.arrow__btn {
 	  display: none;
 	}
+	.wrapper {
+		display: none;
+	}
 
 	.wrapper section .item {
 		max-width: 100%;
@@ -736,7 +739,7 @@ a {
 
 
   .tile__img {
-	max-width: 60%;
+	max-width: 85%;
 	text-align: center;
 	height: auto;
 	object-fit: cover;
