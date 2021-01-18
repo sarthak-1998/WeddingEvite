@@ -155,7 +155,21 @@
        <br>   
 
        <div class="video-container">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/lXbrJhRNbqM?autoplay=1&mute=1&loop=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <div class="video2" data-video = "lXbrJhRNbqM"
+         data-startseconds = "00"
+         data-endseconds = "23"
+         data-height = "480"
+         data-width = "640"
+         id = "youtube-player">
+           
+
+
+         </div>
+
+
+
+
+      <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/lXbrJhRNbqM?autoplay=1&mute=1&loop=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
       </div>
        
 
@@ -249,6 +263,26 @@
       <script src='https://cdn.jsdelivr.net/gh/timoschaefer/jQuery-Sakura/jquery-sakura.min.js'></script>
       <script  src="./js/script.js"></script>
       <script src="/path/to/flickity.pkgd.min.js"></script>
+
+      <script src="https://www.youtube.com/iframe_api"></script>
+    <script type="text/javascript">
+      function onYouTubeIframeAPIReady() {
+        var ctrlq = document.getElementById("youtube-player");
+        var player = new YT.Player('youtube-player', {
+          height: ctrlq.dataset.height,
+          width: ctrlq.dataset.width,
+          events: {
+            'onReady': function(e) {
+              e.target.cueVideoById({
+                videoId: ctrlq.dataset.video,
+                startSeconds: ctrlq.dataset.startseconds,
+                endSeconds: ctrlq.dataset.endseconds
+              });
+            }
+          }
+        });
+      }
+    </script>
       
    
       </body>
