@@ -8,7 +8,7 @@
 
 <details>
   <summary><strong>View Invitation</strong></summary>
-  <a href="./assets/img/InviteMain.png"><img src="./assets/img/" /></a>
+  <a href="https://saharshisha.netlify.app/"><img src="./assets/img/InviteMain.png" /></a>
 </details>
 
 With the divine grace of the almighty, inviting you and your family to Saharsh's wedding to be held on **14th February at [Mishtten Resort](https://g.page/Mishttenresort),  Jhalawar, Rajasthan from 3:00 PM** onwards.
@@ -35,12 +35,16 @@ const weddingVenue = new Location('Mishtten Resort, Rajasthan');
 
     // your presence is requested
     (new Wedding()).acceptInvitation(
-        window.open('https://www.sarthakj.me/WeddingEvite/')
+        window.open('https://saharshisha.netlify.app/')
     );
 })();
 
 
 ```
+## Are you or your loved ones a *bride-to-be* or *groom-to-be*? 
+> Feel free to use this template to build your wedding website!
+
+### Do not forget to leave a star! :hugs:
 
 <br><sup><i>With warm regards,<br>
 **Sarthak Jain**<i></sup><br>
@@ -49,4 +53,4 @@ const weddingVenue = new Location('Mishtten Resort, Rajasthan');
 
 * Vinit Shahdeo - GitHub - https://github.com/vinitshahdeo  Project - https://github.com/vinitshahdeo/Wedding-Invitation
 
-* 
+* Sanket Singh - GitHub - https://github.com/singhsanket143 LinkedIn - https://www.linkedin.com/in/singhsanket143/ 
