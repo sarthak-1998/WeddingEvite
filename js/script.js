@@ -23,6 +23,12 @@ $(document).on('click', function(){
     console.log('Shaadi me zaroor aana');
 });
 
+function pauseAudio() { 
+    document.getElementById("my_audio").pause();
+    console.log('Shaadi me pakka aana');
+    event.stopPropagation();
+};
+
 // Set the date we're counting down to
 var countDownDate = new Date("Feb 14, 2021 00:00:00").getTime();
 
@@ -88,6 +94,6 @@ console.log('\n\n%c SAVE THE DATE: 14th Feb, 2021', styles);
 console.log('%cYour presence is requested!%c\n\nRegards: Sarthak Jain', styles1, styles2);
 
 console.log(
-    `%cShaadi me zaroor aana!\n\n`,
+    `%c शादी में जलूल जलूल आना होगा \n\n`,
     'color: yellow; background:tomato; font-size: 24pt; font-weight: bold',
 )

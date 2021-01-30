@@ -744,3 +744,63 @@ a {
 	height: auto;
 	object-fit: cover;
   }
+
+
+  blockquote {
+	position: relative;
+	padding-left: 30px;
+	font-weight: 600;
+	color: #373A63;
+	padding: 1em;
+	padding-right: 0.25em;
+	margin-left: 2.25em;
+	margin-right: 0.2em;
+	max-width: 35em;
+	font-size: 15px;
+  }
+  blockquote::before {
+		content: "“";
+		font-family: serif;
+		position: absolute;
+		right: 100%;
+		font-size: 75px;
+		line-height: 0px;
+		top: 50px;
+		color: #674ea7;
+		animation: dancing 1s linear infinite;
+		display: inline-block;
+		transform: rotate(13deg);
+	}
+	blockquote::after {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 100%;
+		width: 80px;
+		height: 5px;
+		background: #e56d39;
+		left: 1em;
+	}
+
+	@keyframes dancing {
+		0% {
+		  transform: rotate(13deg) scale(1.25);
+		}
+	  
+		25% {
+		  transform: rotate(0deg);
+		}
+	  
+		50% {
+		  transform: rotate(-13deg) scale(1.25);
+		}
+	  
+		75% {
+		  transform: rotate(0deg);
+		}
+	  
+		100% {
+		  transform: rotate(13deg) scale(1.25);
+		}
+	  }
+
